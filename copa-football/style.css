@@ -1,0 +1,37 @@
+body{font-family: 'Poppins', sans-serif;}
+
+
+section{
+    display: flex;
+    background-color: rgb(85, 6, 212);
+    padding: 8% 12% 8% 12%;
+    
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 100%;
+    padding-right: 5%;
+}
+h1{
+    font-size: 65px;
+    color: floralwhite;
+}
+a{
+    text-decoration: none ;
+    background-color: rgb(236, 7, 7);
+    text-align: center;
+   padding: 2% 5% 2% 5%;
+   color: floralwhite;  
+   
+}
+.boxx{
+   float: right;
+    
+}
+.photo:hover{
+    transform:scale(1.2) ;
+    overflow: hidden;
+}
