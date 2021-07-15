@@ -19,7 +19,7 @@ h1{
     font-size: 65px;
     color: rgb(12, 12, 12);
 }
-a{
+.lalu{
     text-decoration: none ;
     background-color: rgb(236, 7, 7);
     text-align: center;
@@ -58,9 +58,104 @@ a{
       margin: 80px;
      padding-bottom: 20px;
       width: 1200px;
-       /* border: 0px solid rgb(255, 255, 255); */
+       border: 0px solid rgb(255, 255, 255);
       display: flex;
       flex-wrap: wrap;
      
      
   }
+  /* .logo{ */
+   /* display: inline block; */
+   /* vertical-align: middle ; */
+   /* padding-left: 50px; */
+  /* } */
+
+
+  /* *{ */
+      /* margin: 0; */
+      /* padding: 0; */
+     
+  /* } */
+ /* .logo img{ */
+     /* width: 30%; */
+     
+ /* } */
+/* .socialn{ */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* padding: 40px; */
+    /* margin-bottom: 100px; */
+    /* font-size: 30px; */
+/* } */
+/* footer{ */
+   /* text-align: center; */
+/* } */
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo img{
+    width: 354px;
+    height: 110px;
+}
+.icon i{
+    padding: 5px
+    border: radius 20px;
+    margin: 5px;
+    background-color: rgb(201,195,195);
+    color: gray;
+}
+.photo-fra{
+    width: 400px;
+    height: 300px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    position: relative;
+}
+.photlu img{
+    width: 100%;
+}
+.photo-detail{
+    display: none;
+    position: absolute;
+    width: 400px;
+    top: 0;
+}
+.photo-alb{
+    display: flex;
+}
+.photo-detail h3{
+    background-color: lightseagreen;
+    color: black;
+    text-align: center;
+}
+.photo-detail p{
+    color: cornsilk;
+}
+.photo-fra:hover .photo-detail{
+    display: block;
+    background-color: rgba(185, 150, 150, 0.521);
+}
+.buuu{
+    text-align: center;
+}
+.containerr{
+    margin: 80px;
+     padding-bottom: 0px;
+      width: 1200px;
+       border: 0px solid rgb(255, 255, 255);
+      display: flex;
+      flex-wrap: wrap;
+     
+
+}
+.photo-fra{
+    margin: 66px;
+}
+
+
